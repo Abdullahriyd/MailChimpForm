@@ -5,13 +5,14 @@
 
 
   // Function to update form action and attributes by class
-  function updateFormAttributesByClass(formClass, actionValue, methodValue) {
+  function updateFormAttributesByClass(formClass, actionValue, methodValue, targetValue) {
       var formElements = document.getElementsByClassName(formClass);
       if (formElements.length > 0) {
           // Assuming there is only one form with the specified class
           var formElement = formElements[0];
           formElement.action = actionValue;
           formElement.method = methodValue;
+          formElement.target = targetValue;
       }
   }
 
@@ -38,7 +39,7 @@
   // Function to be executed after the page is fully loaded
   function onPageLoad() {
       // Update form attributes for a form with the class 'kv-ee-subscribe'
-      updateFormAttributesByClass('kv-ee-subscribe', 'MailChimpFormLink', 'post');
+      updateFormAttributesByClass('kv-ee-subscribe', 'MailChimpFormLink', 'post', '_blank'); //MailChimpFormLink='https://gmail.us7.list-manage.com/subscribe/post?u=f08e491b7c5e2d5489cda7280&id=21d9dbe60a&f_id=0024e7e4f0'
 
       // Update input attributes for an element with the id 'fieldEmail'
       updateInputAttributesById('fieldEmail', 'name', 'EMAIL');
