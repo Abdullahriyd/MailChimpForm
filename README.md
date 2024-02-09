@@ -1,6 +1,7 @@
---------How to Transfer any existing fomm into a MailChip Embedded LeadForm---------
+--------How to Transfer any existing form into a MailChip Embedded Form---------
 
     --> action url, method="post" to form class="kv-ee-subscribe" --------or The targetted forms action property with method post.
+
     --> name="EMAIL" to id="fieldEmail" --------or Targetted email field with type attribute (Same for other field (with regarding type) and exactly spelled according to MailChimp form builder fields). Must have required="" attribute.
 
     --> type="submit" name="subscribe" id="mc-embedded-subscribe" value="Subscribe" to button class="kv-ee-submit" --------or Targetted submit button/label
