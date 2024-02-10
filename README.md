@@ -26,3 +26,12 @@
 --> ------------ EXAMPLE of a functional MailChimp form is form.html -----------------
 
 --> ------------ The required JavaScript, which will modify the attributes and should be placed in the header or footer, is script.js -------------------------
+
+
+Final verdict:
+Only Action (Form), Name (Others fields), and Submit (button) attributes are enough for a simple form (Example file: simpleTwoForm.html). But it's not the best practice rather than using the MailChimp-provided embedded code. I'll dig deep again in the future.
+
+Self Target:
+-Extract field data from an existing form to a hidden MailChimp embedded form and transfer the data to the related MailChimp account.
+- WordPress plugin for MailChimp
+- A form-building web app.

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+.my-form {
+        display: grid;
+        grid-template-columns: (1 , 1fr);
+        align-items: end;    }
+.label-container {
+        margin-bottom: 1rem;
+    }
+.label-text {
+        display: inline-block;
+        margin-bottom: 3px;
+        padding: .35rem;
+        background-color: #6079ff;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-family: 'Montserrat', cursive;
+    }
+input {
+        display: block;
+        min-height: 50px;
+        width: 100%;
+        padding: 6px;
+        border: 1px solid #4f4f4f;
+        border-radius: 0px;
+        box-shadow: rgba(10, 10, 10, .05) 0 1px 4px 0 inset;
+    }
+.submit-btn {
+        padding: 14px 16px;
+        margin-bottom: 1rem;
+        min-height: 50px;
+        border-radius: 4px;
+        background-color: #f57afc;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <form class="my-form" action="https://gmail.us7.list-manage.com/subscribe/post?u=f08e491b7c5e2d5489cda7280&id=21d9dbe60a&f_id=0024e7e4f0" method="post" target="_blank">
+        <label class="label-container">
+            <span class="label-text">Your first Name please</span>
+            <input value="" type="text" placeholder="For that..." 
+                name="FNAME" required="required">
+        </label>
+        <label class="label-container">
+            <span class="label-text">Your last Name</span>
+            <input value="" type="text" placeholder="So we can...." 
+                name="LNAME">
+        </label>
+        <label class="label-container">
+            <span class="label-text">E-mail</span>
+            <input value="" type="email" placeholder="This is..." 
+                name="EMAIL" required="required">
+        </label>
+        <div id="mce-responses" class="clear">
+            <div class="response" style="display:none"></div>
+            <div class="response" style="display:none"></div>
+        </div>    
+        <div style="position: absolute; left: -5000px;">
+            <input type="text" tabindex="-1" value="">
+        </div>
+        <button type="submit" class="submit-btn">Subscribe</button>
+    </form>
+</body>
+</html>
