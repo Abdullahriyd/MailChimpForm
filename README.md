@@ -21,8 +21,6 @@
 
 --> The below JS is applied to https://vasisterhood.com/ to modify
 
---> The full GPT code is: https://chat.openai.com/share/be62d2da-53f9-4eb4-b2f7-cabef3df059b
-
 --> ------------ EXAMPLE of a functional MailChimp form is form.html -----------------
 
 --> ------------ The required JavaScript, which will modify the attributes and should be placed in the header or footer, is script.js -------------------------
@@ -30,8 +28,3 @@
 
 Final verdict:
 Only Action (Form), Name (Others fields), and Submit (button) attributes are enough for a simple form (Example file: simpleTwoForm.html). But it's not the best practice rather than using the MailChimp-provided embedded code. I'll dig deep again in the future.
-
-Self Target:
--Extract field data from an existing form to a hidden MailChimp embedded form and transfer the data to the related MailChimp account.
-- WordPress plugin for MailChimp
-- A form-building web app.
